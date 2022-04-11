@@ -3,9 +3,9 @@ package dbcon
 import (
 	"fmt"
 	"smartpi/sensor"
-
+	//influxdb "github.com/influxdata/influxdb-client-go.git"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
-)
+)	
 
 const dbhost = "http://localhost:8086"
 const token = "qQQ5xDcMqauaLn3uBA8ZoiUXNEakqud7Db_k7KLzUAvVGcUxkO4msosfaOQYgoToiLeFwrCav_UA5atcW-c1tA=="
